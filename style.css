@@ -1,0 +1,62 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.start {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+#time {
+  margin-bottom: 20px;
+}
+
+#schedule {
+  margin-bottom: 20px;
+}
+
+.hour {
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  border-left: none;
+  border-bottom: none;
+  width: 90px;
+  padding: 5px 10px;
+}
+
+.hour p {
+  font-size: 14px;
+  color: #444;
+}
+
+.hourNotes {
+  box-sizing: border-box;
+  width: calc(100% - 130px);
+  border: none;
+  border-top: 1px solid #bbb;
+  background-color: #e9ecef;
+  padding: 5px;
+}
+
+.last-hour,
+.last-hourNotes {
+  border-bottom: 1px solid #bbb;
+}
+
+.saveBtn {
+  box-sizing: border-box;
+  width: 40px;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  background-color: #888;
+  border-radius: 0 10px 10px 0;
+}
+
+.fa-save {
+  color: white;
+}
